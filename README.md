@@ -1,6 +1,7 @@
 # Movie Finder
 
 A fast, clean movie discovery app built with React, TypeScript, and Tailwind CSS. Search for films, browse by genre, view ratings and details, and save favorites to a personal watchlist — all powered by The Movie Database (TMDB) API.
+A live version of the site is foud here: https://tmencodes.github.io/Movie/
 
 ## Features
 
@@ -13,12 +14,12 @@ A fast, clean movie discovery app built with React, TypeScript, and Tailwind CSS
 
 ## Tech Stack
 
-| Layer | Library |
-|---|---|
-| UI | React 19 + TypeScript |
-| Styling | Tailwind CSS v4 |
-| Build | Vite 8 |
-| Data | TMDB REST API |
+| Layer     | Library                 |
+| --------- | ----------------------- |
+| UI        | React 19 + TypeScript   |
+| Styling   | Tailwind CSS v4         |
+| Build     | Vite 8                  |
+| Data      | TMDB REST API           |
 | Utilities | react-use (useDebounce) |
 
 ## Getting Started

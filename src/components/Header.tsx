@@ -1,4 +1,4 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation } from "react-router-dom";
 
 interface HeaderProps {
   watchlistCount: number;
@@ -6,13 +6,13 @@ interface HeaderProps {
 
 const Header = ({ watchlistCount }: HeaderProps) => {
   const { pathname } = useLocation();
-  const isWatchlist = pathname === '/watchlist';
+  const isWatchlist = pathname === "/watchlist";
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-40 bg-[#030014]/80 backdrop-blur-md border-b border-white/10">
       <div className="max-w-7xl mx-auto px-5 xs:px-10 h-16 flex items-center justify-between">
         <Link to="/">
-          <img src="/logo.png" alt="MovieApp" className="h-8 w-auto" />
+          <img src="/Movie/logo.png" alt="MovieApp" className="h-8 w-auto" />
         </Link>
 
         <Link
